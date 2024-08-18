@@ -1,3 +1,5 @@
+package pj_20240818;
+
 class Main {
 
 	public static void main(String[] args) {
