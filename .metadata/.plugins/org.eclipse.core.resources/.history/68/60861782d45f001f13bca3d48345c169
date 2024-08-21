@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int case_num = 0;
+		String test_string = "";
+		System.out.println("케이스 갯수 입력 : ");
+		case_num = sc.nextInt();
+		
+		for(int i=0;i<case_num;i++) {
+			test_string = sc.next();
+			
+			int score_temp = 0;
+			int score_sum = 0;
+			
+			for(int j=0;j<test_string.length();j++) {
+				if(test_string.charAt(j) == 'O') {
+					score_sum = ++score_temp;
+				}
+				else if(test_string.charAt(j) == 'X') {
+					score_temp = 0;
+				}
+			}
+			
+			System.out.println(score_sum);
+				
+		}
+
+	}
+
+}
