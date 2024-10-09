@@ -1,7 +1,0 @@
-package com.trashbin.chy;
-
-public class gacha_simulator {
-	public static void main(String[] args) {
-
-	}
-}
