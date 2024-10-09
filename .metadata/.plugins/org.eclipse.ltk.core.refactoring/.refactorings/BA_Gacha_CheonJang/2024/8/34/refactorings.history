@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.trashbin.chy.main&apos; to &apos;gacha_simulator&apos;&#x0D;&#x0A;- Original project: &apos;BA_Gacha_CheonJang&apos;&#x0D;&#x0A;- Original element: &apos;com.trashbin.chy.main&apos;&#x0D;&#x0A;- Renamed element: &apos;com.trashbin.chy.gacha_simulator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.trashbin.chy{main.java[main" matchStrategy="1" name="gacha_simulator" qualified="false" references="true" similarDeclarations="false" stamp="1724258220463" textual="false" version="1.0"/>
+</session>
