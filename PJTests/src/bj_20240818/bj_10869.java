@@ -10,7 +10,7 @@ class bj_10869 {
 		
 		A = sc.nextInt();
 		B = sc.nextInt();
-		
+		// Scanner 씹힘 대응책?
 		System.out.println(A+B);
 		System.out.println(A-B);
 		System.out.println(A*B);
